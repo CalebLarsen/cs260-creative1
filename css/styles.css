@@ -27,7 +27,13 @@
     text-decoration: none;
 }
 
-@media only screen and ((max-height:500px) or (max-width:600px)){
+@media only screen and (max-height:500px){
+    #bottom {
+        margin-bottom: 54px;
+    }
+}
+
+@media only screen and (max-width:830px){
     #bottom {
         margin-bottom: 54px;
     }
